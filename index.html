@@ -58,13 +58,14 @@
   @media (max-width: 860px) {
     main { grid-template-columns: 1fr; }
   }
+  @media (min-width: 861px) {
+    .plan-wrap { position: sticky; top: 2rem; }
+  }
   .plan-wrap {
     background: var(--card);
     border: 1px solid var(--line);
     border-radius: 4px;
     padding: 1.5rem;
-    position: sticky;
-    top: 2rem;
   }
   .plan-title {
     font-family: 'Playfair Display', serif;
